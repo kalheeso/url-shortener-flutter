@@ -307,7 +307,11 @@ POST https://url-shortener-server.onrender.com/api/alias
 ### Response
 ```json
 {
-  "shortUrl": "https://short.url/abc123"
+	"alias": "839370780",
+	"_links": {
+		"self": "https://example.com/long/url",
+		"short": "https://url-shortener-server.onrender.com/api/alias/839370780"
+	}
 }
 ```
 
